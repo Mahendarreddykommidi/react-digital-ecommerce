@@ -4,7 +4,7 @@ import Productitem from '../Productitem/Productitem'
 
 const Productcards = () => {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-3 px-10 items-start  my-20 justify-start mx-auto gap-10 py-10 w-[1200px]  '> 
+    <div className='grid grid-cols-1 md:grid-cols-3 px-10 items-start  my-20 justify-start mx-auto gap-10 py-10 w-[1200px]  '> 
 
       {
         all_products.map((item,index)=>{
