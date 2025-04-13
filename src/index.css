@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+*{
+        font-family: "Urbanist",sans-serif;
+       
+      
+}
+.primary{
+        background-color: black;
+        border-radius: 5rem;
+        padding: 10px 40px;
+        color: white;
+}
+li{
+        list-style: none;
+        font-size: 20px;
+        text-transform: uppercase;
+}
+.hero-heading{
+        font-family: "Jost";
+}
+.bg-gradient{
+        background-image: linear-gradient(
+                to top right,
+                #3d86fa,
+                #4484fb,
+                #679eff,
+                #b3d2ff,
+                #ebf3fe
+              );
+}
