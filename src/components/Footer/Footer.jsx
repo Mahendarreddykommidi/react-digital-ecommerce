@@ -4,9 +4,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className=" text-white bg-blue-500 flex justify-between px-20">
-            <div className="max-w-7xl my-15  ">
+            <div className="max-w-4xl md:max-w-6xl my-15  ">
                 {/* Main Footer Content */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:mx-20">
                     {/* Shop Info */}
                     <div>
                         <img src="../images/logo.png" alt="" className='w-1/2'/>
