@@ -5,7 +5,7 @@ import hero from "../../../public/images/heroImage.png";
 const Home = () => {
   return (
     <div className="header flex flex-col md:flex-row items-center justify-between gap-30 bg-gradient h-[84vh] px-20 border-t border border-gray-500  ">
-      <div className="header-content flex flex-col justify-center items-start py-4 ">
+      <div className="header-content flex flex-col justify-center items-start py-0 md:py-20">
         <p className="hero-subheading text-2xl">Explore the Latest in Tech Industries</p>
         <h1 className="hero-heading flex  text-md py-1.5 md:text-4xl md:py-2 text-[#003b99] ">
           Your Destination for Cutting-Edge Gadgets!
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
       </div>
       <div className="header-image ">
-        <img src={hero} alt="" />
+        <img src={hero} alt="" className="w-1/2 md:w-full"   />
   
         
      
