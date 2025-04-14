@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { ShoppingCart, Menu, X } from 'lucide-react'
 import { NavLink } from 'react-router-dom';
 import { ShopContext } from '../../context/context';
+import logo from "../../../public/images/log.png"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
             <NavLink to="/">
             <img 
                 className="h-12 w-auto" 
-                src="public\images\log.png"
+                src={logo}
                 alt="Company Logo" 
               />
             </NavLink>

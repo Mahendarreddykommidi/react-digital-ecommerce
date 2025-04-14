@@ -41,7 +41,9 @@ const About = () => {
             className="why-choose--div"
             data-aos="zoom-in-up"
             data-aos-delay="600"
-          >
+            
+            >
+          
             <p className="common-text w-10 rounded-full py-2 text-center text-white items-center bg-blue-400">3</p>
             <h3 className="section-common--title my-2">Competitive Prices</h3>
             <p>

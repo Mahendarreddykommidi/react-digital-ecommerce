@@ -1,4 +1,5 @@
 import React from "react";
+import hero from "../../../public/images/heroImage.png";
 
 
 const Home = () => {
@@ -21,7 +22,9 @@ const Home = () => {
         </div>
       </div>
       <div className="header-image ">
-        <img src="public\images\heroImage.png" alt=""  className="w-[80%]"/>
+        <img src={hero} alt="" />
+  
+        
      
       </div>
   

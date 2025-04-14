@@ -1,9 +1,9 @@
 import { createContext, useEffect, useState } from "react";
-import all_products from "../assets/assets";
+import all_products from "../assets/assets"; // Import your product data
 export const ShopContext = createContext();
 
 export const ShopContextProvider = ({ children }) => {
-  const [products, setProducts] = useState(all_products);
+  
 
 
 
@@ -102,8 +102,7 @@ const removefromCart=(itemId)=>{
     getTotalCartItems,
     isCartEmpty,
     all_products,
-    products,getdefaultCart
-    ,TotalCartamount
+    getTotalCartItems
     
   };
 

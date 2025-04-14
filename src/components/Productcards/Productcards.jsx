@@ -1,5 +1,5 @@
 import React from 'react'
-import all_products from '../../assets/assets'
+import all_products from "../../assets/assets"
 import Productitem from '../Productitem/Productitem'
 
 const Productcards = () => {

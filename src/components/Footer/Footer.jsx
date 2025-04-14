@@ -3,12 +3,12 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" text-white bg-blue-500 flex justify-between px-20">
-            <div className="max-w-7xl my-15  ">
+        <footer className=" text-white bg-blue-500 flex justify-between px-20 relative bottom-0 w-full">
+            <div className="max-w-8xl my-15 absolute  bg-blue-400 left-0 text-sm ">
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-20">
                     {/* Shop Info */}
-                    <div>
+                    <div className='my-10'>
                         <img src="../images/logo.png" alt="" className='w-1/2'/>
                         <p className="mb-4">Your one-stop destination for quality products and exceptional service.</p>
                         <div className="flex space-x-4">
@@ -28,8 +28,8 @@ const Footer = () => {
                     </div>
 
                     {/* Shopping */}
-                    <div className='ml-'>
-                        <h3 className="text-white text-lg font-semibold mb-4">Shopping</h3>
+                    <div className='my-10'>
+                        <h3 className="text-white text-[14px]  my-10">Shopping</h3>
                         <ul className="space-y-2">
                             <li><a href="#" className="hover:text-white">New Arrivals</a></li>
                             <li><a href="#" className="hover:text-white">Best Sellers</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
 
                     {/* Customer Service */}
                     <div>
-                        <h3 className="text-white text-lg font-semibold mb-4">Customer Service</h3>
+                        <h3 className="text-white text-md  my-10">Customer Service</h3>
                         <ul className="space-y-2">
                             <li><a href="#" className="hover:text-white">Track Order</a></li>
                             <li><a href="#" className="hover:text-white">Shipping Policy</a></li>
