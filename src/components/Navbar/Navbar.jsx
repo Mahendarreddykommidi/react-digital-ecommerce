@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-4 capitalize">
+          <div className="hidden md:flex items-center justify-between space-x-4 capitalize">
             <NavLink to="/" className="hover:text-blue-600 transition-colors">
               <li>Home</li>
             </NavLink>
